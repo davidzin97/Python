@@ -1,6 +1,6 @@
 import random
 numero = random.randint(0,5)
-adivinha = int(input('Adivinhe o Numero !  '))
+adivinha = int(input('Adivinhe o Numero entre 1 e 5 !  '))
 if adivinha != numero:
     print('VOCE ERROU')
 else:
